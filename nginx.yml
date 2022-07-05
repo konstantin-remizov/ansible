@@ -33,7 +33,7 @@
       tags:
         - nginx-configuration
 
-
+  handlers:
     - name: restart nginx
       systemd:
         name: nginx
